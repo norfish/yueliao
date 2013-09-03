@@ -1,0 +1,21 @@
+{
+    "name": "YueLiao",
+    "version": "0.0.1",
+    "description": "music FM",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nofish/yueliao"
+    },
+    "author": "EasumLee",
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "gitHead": "git head",
+    "devDependencies": {
+        "grunt": "latest",
+        "grunt-contrib-connect": "latest",
+        "grunt-contrib-concat": "latest",
+        "grunt-contrib-jasmine": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-compass": "latest"
+    }
+}
