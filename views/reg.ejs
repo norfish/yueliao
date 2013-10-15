@@ -1,0 +1,19 @@
+<%- include header %>
+
+<body>
+	<div id="hd" class="hd"><h1><%= title %></h1></div>
+	<hr/>
+	
+	<div id="bd" class="bd">
+		<%- include menu %>
+		<form method="post">
+		  用户名：  <input type="text" name="name" class="form-control"/><br />
+		  密码：    <input type="password" name="password" class="form-control"/><br />
+		  确认密码：<input type="password" name="password-repeat" class="form-control"/><br />
+		  邮箱：    <input type="email" name="email" class="form-control"/><br />
+		            <button type="button" class="btn btn-primary">注&nbsp;&nbsp;册</button>
+		</form>
+	</div>
+</body>
+
+<%- include footer %>
