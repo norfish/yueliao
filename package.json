@@ -9,6 +9,7 @@
     "express": "3.4.0",
     "ejs": "*",
     "mongodb": "*",
-    "connect-mongo": "*"
+    "connect-mongo": "*",
+    "connect-flash": "*"
   }
 }
