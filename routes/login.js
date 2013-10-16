@@ -4,5 +4,5 @@
  */
 
 exports.login = function(req, res){
-  	res.render( 'login', {title: "注册"} );
+  res.render( 'login', {title: '注册'} );
 };

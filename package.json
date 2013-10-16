@@ -1,11 +1,28 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
+  "name": "leblog",
+  "version": "0.0.0",
+  "main": "lib/leblog.js",
+  "description": "The best module ever.",
+  "homepage": "https://github.com/nofish/leblog",
+  "bugs": "https://github.com/nofish/leblog/issues",
+  "author": {
+    "name": "easumlee",
+    "email": "easumlee@gmail.com",
+    "url": "fecake.com"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nofish/leblog"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0",
     "express": "3.4.0",
     "ejs": "*",
     "mongodb": "*",
