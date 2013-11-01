@@ -5,6 +5,12 @@
 	<%- include menu %>
 
 	<div class="col-xs-10">
+		<% if (error){ %>
+			<%= error %>
+		<% } %>
+		<% if (success){ %>
+			<%= success %>
+		<% } %>
 		<p>Hello World</p>
 	</div>
 
